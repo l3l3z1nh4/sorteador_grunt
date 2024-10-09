@@ -1,0 +1,54 @@
+@fontePrincipal : "Roboto", system-ui;
+@corTexto : #ffffffd6;
+@corFundo : #2a9c00cc;
+
+body{
+    background-color:@corFundo;
+    font-family: @fontePrincipal;
+    color: @corTexto;
+}
+
+h1{
+    font-family: @fontePrincipal;
+}
+
+main{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+button{
+    padding: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.8em ;
+    margin-top: 16px;
+    border-radius: 8px;
+    font-family: @fontePrincipal;
+}
+
+input{
+    display: block;
+    margin: 16px auto 0;
+    font-size:2em;
+    max-width: 160px;
+    border-radius:8px;
+    text-align: center;
+}
+
+.resultado{
+    padding: 16px;
+    margin-top: 70px;
+    border: 8px dotted @corTexto;
+    text-align: center;
+    display: none;
+    
+    span{
+        font-weight: bolder;
+        display: block;
+        font-size: 2em;
+    }
+}
